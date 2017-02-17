@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7b19b1b5-557f-4c11-9e2a-1497e2d6d7cf" name="baribal" url="http://185.12.92.54">
+        <fileTransfer host="185.12.92.54" port="21" password="dfc0dfe8df99dfd0dff3dfc8df93dfc4dfd8" username="baribal7">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4f22c339-f2ac-4528-96f8-4d6042c0f910" name="kultura-to.ru" url="http://kultura-to.ru">
+        <fileTransfer host="kultura-to.ru" port="21" password="dfc3dfcbdfc9dfd9dfc3dfdedfcfdfdadfcbdfd9dfd9df98df9adf9bdf9a" username="kulturat">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

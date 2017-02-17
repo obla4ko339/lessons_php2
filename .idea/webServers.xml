@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="94645c28-9cbe-40f6-9149-3db37ad5291d" name="baribal72" url="http://baribal72.ru">
+        <fileTransfer host="baribal72.ru" port="21" password="dfc0dfe8df99dfd0dff3dfc8df93dfc4dfd8" username="baribal7">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
