@@ -32,10 +32,13 @@ class News
 
     public function actionIndex()
     {
-
-
         $this->view->title = "Мой сайт крутой";
         $this->view->users = User::findAll();
-        echo $this->view->render(__DIR__.'/App/templates/index.php');
+        echo $this->view->render(__DIR__.'/../templates/index.php');
     }
+    protected function actionOne(){
+        $id = (int)$_GET['id'];
+        $this->view->article = User::findById($id);
+    }
+
 }

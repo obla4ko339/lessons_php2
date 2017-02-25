@@ -17,7 +17,7 @@ use Singleton;
 
     protected function __construct()
     {
-        $this->dbh = new \PDO('mysql:host=127.0.0.1; dbname=iac;', 'root', 'obla4ko');
+        $this->dbh = new \PDO('mysql:host=127.0.0.1; dbname=iac;', 'root', '');
     }
 
     public function execute($sql, $params = []){
